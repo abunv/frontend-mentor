@@ -1,0 +1,159 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: '__Barlow_Fallback_f46a1f', sans-serif;
+    color:  rgb(115, 115, 115);
+    font-size: 18px;
+}
+
+.container {
+    min-width: 1140px;
+    max-width: auto;
+}
+
+.btn {
+    background-color: #111;
+    padding: 16px 44px;
+    border-radius: 28px;
+    font-size: 18px;
+    font-weight: 700;
+    font-style: italic;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    display: flex;
+    align-items: center;
+}
+.btn:hover {
+    background-color: rgb(65, 64, 64);
+    color: #fff;
+}
+
+.col-3 {
+    flex-basis: 25%;
+    max-width: 25%;
+    width: 25%;
+    padding: 0px 15px;
+}
+.col-5 {
+    flex-basis: 41.666%;
+    max-width: 41.666%;
+    width: 41.666%;
+    padding: 0px 15px;
+}
+.col-6 {
+    flex-basis: 50%;
+    max-width: 50%;
+    width: 50%;
+    padding: 0px 15px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.justify-end {
+    justify-content: flex-end;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(28, 32, 34);
+}
+
+ul {
+    list-style-type: none;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* header */
+.header {
+    padding: 20px 32px;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.header__list a{
+    margin: 0px 10px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 23px;
+    font-size: 18px;
+    color: rgb(28, 32, 34);
+    font-family: '__Barlow_Fallback_f46a1f', sans-serif;
+}
+
+.header__list a:hover {
+    /* text-decoration: underline; */
+}
+
+.social__logo {
+    /* display: flex; */
+    align-items: center;
+    justify-content:flex-end;
+    padding-left: 10px;
+    font-size: 25px;
+}
+
+.logo {
+    font-weight: 600;
+}
+
+.button-bordered {
+    border: none;
+    outline: none;
+    position: relative;
+  }
+
+  .button-bordered::before,
+.button-bordered::after {
+  border: 0 solid transparent;
+  transition: all 0.3s;
+  content: '';
+  height: 0;
+  position: absolute;
+  width: 24px;
+}
+
+.button-bordered::before {
+  border-top: 0px solid rgb(255, 98, 0);
+  right: 0;
+  top: -4px;
+}
+
+.button-bordered::after {
+  border-bottom: 3px solid rgb(255, 98, 0);
+  bottom: -4px;
+  left: 0;
+}
+
+.button-bordered:hover::before,
+.button-bordered:hover::after {
+  width: 100%;
+}
+
+
+
