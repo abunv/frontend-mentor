@@ -8,18 +8,19 @@ body {
     font-family: '__Barlow_Fallback_f46a1f', sans-serif;
     color:  rgb(115, 115, 115);
     font-size: 18px;
+    background-color:rgb(244, 247, 250);
 }
 
 .container {
     min-width: 1140px;
-    max-width: auto;
+    margin: auto;
 }
 
 .btn {
     background-color: #111;
     padding: 16px 44px;
     border-radius: 28px;
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 700;
     font-style: italic;
     color: #fff;
@@ -89,8 +90,8 @@ ul {
 /* header */
 .header {
     padding: 20px 32px;
-    justify-content: space-between;
     position: sticky;
+    justify-content: space-between;
     top: 0;
     background-color: #fff;
     z-index: 1;
@@ -101,13 +102,9 @@ ul {
     font-style: italic;
     font-weight: 700;
     line-height: 23px;
-    font-size: 18px;
+    font-size: 15px;
     color: rgb(28, 32, 34);
     font-family: '__Barlow_Fallback_f46a1f', sans-serif;
-}
-
-.header__list a:hover {
-    /* text-decoration: underline; */
 }
 
 .social__logo {
@@ -153,6 +150,70 @@ ul {
 .button-bordered:hover::before,
 .button-bordered:hover::after {
   width: 100%;
+}
+
+/* inprove section */
+.inprove .container {
+    padding: 80px 40px;
+    display: flex;
+}
+
+.btitle {
+    font-size: 54px;
+    line-height: 59px;
+    color: rgb(62, 84, 163);
+    padding-bottom: 20px;
+}
+
+.inprove__text {
+    font-size: 21px;
+    line-height: 31px;
+    color: rgb(115, 115, 115);
+}
+
+.inprove__btn {
+    margin: 20px 0px;
+    background-color: rgb(229, 10, 54);
+    width: 55%;
+}
+
+.inprove__btn:hover {
+    background-color: rgb(195, 6, 43);
+}
+
+.join {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+
+.join__imgs img {
+    width: 200px;
+    height: 80px;
+    /* border-radius: 50%; */
+    /* border: 1px solid #fff; */
+    margin: 0px;
+}
+
+.join__text {
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(28, 32, 34);
+    padding-left: 23px;
+}
+
+.join__text span {
+    color:  rgb(62, 84, 163);
+    font-weight: 700;
+}
+
+.inprove__img  img{
+    width: 700px;
+    height: 550px;
 }
 
 
